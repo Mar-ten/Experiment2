@@ -130,7 +130,14 @@ u_{y} = \frac{K_{I}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa+1)sin\bigg(\frac{\thet
 \end{equation}
 where (r,$\theta$) are the polar coordinate of the point, $\mu$ is the shear modulus and $\kappa$ is $\frac{3-\nu}{1+\nu}$ ($\nu$ is Poisson's ratio) for the plane stress state of the experiment.
 \\ \\
-    
+Mixed mode stress intensity factors can also be found using the experimental mixed mode displacement fields. The displacement field for a combined Mode I and Mode II loading situation is the sum of the displacements for each individual loading condition, as given by the following equations:
+\begin{equation}
+u_{x} = \frac{K_{I}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa-1)cos\bigg(\frac{\theta}{2}\bigg)-cos\bigg(\frac{3\theta}{2}\bigg)\bigg] + \frac{K_{II}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa+3)sin\bigg(\frac{\theta}{2}\bigg)+sin\bigg(\frac{3\theta}{2}\bigg)\bigg]
+\end{equation}
+\begin{equation}
+u_{y} = \frac{K_{I}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa+1)sin\bigg(\frac{\theta}{2}\bigg)-sin\bigg(\frac{3\theta}{2}\bigg)\bigg]-\frac{K_{II}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa-3)cos\bigg(\frac{\theta}{2}\bigg)+cos\bigg(\frac{3\theta}{2}\bigg)\bigg]
+\end{equation}
+Thus, individual $K_{I}$ and $K_{II}$ values can be solved by solving the system of equations with the known displacement values at any given point.    
 \subsection{Procedure} %Martin
 The experiment was conducted with a thin rectangular PMAA (acrylic) specimen .  To simulate a crack the specimen was cut with a bandsaw directly in the center to a length of ??. This  method was chosen to allow for a blunt crack tip so that premature failure of the specimen does not occur while testing.  One side of the plate was painted  completely white and then speckled using a black aerosol paint.  The black paint was applied in a way that allowed for random speckling with in a size range that would allow for proper DIC measurements.
 \\ \\
@@ -187,9 +194,6 @@ We then took several images to obtain an initial reference and to get an estimat
 % All layups
 \
 \section{Appendix}
-
-\subsection{equations}
-
 
 \subsection{Code}
 
