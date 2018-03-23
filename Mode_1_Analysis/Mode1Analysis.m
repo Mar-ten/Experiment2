@@ -1,0 +1,64 @@
+%% Mode 1 Analysis
+filename={'Mode1-0010.csv','Mode1-0011.csv','Mode1-0012.csv','Mode1-0013.csv','Mode1-0014.csv','Mode1-0015.csv','Mode1-0016.csv','Mode1-0017.csv'};
+
+nu=0.35; %Poisson's Ratio
+E=3e3; % Elastic Modulus (MPa)
+mu=E/(2*(1+nu)); % Shear Modulus from E and nu (MPa)
+kappa=(3-nu)/(1+nu); % Plain Stress value for kappa
+Load=[7.784,93.77,215.6,295,412,489.6,587,745,834,899,952,1010];
+K = [0.0033,0.0392,0.0900,0.1232,0.1720,0.2044,0.2451,0.3111,0.3483,0.3754,0.3975,0.4218];
+a=70; b=73;c=54;
+K=K(end-length(filename)+1:end);
+Load=Load(end-length(filename)+1:end);
+Kexp1=zeros(size(K));
+Kexp2=zeros(size(K));
+
+for i=1:length(filename)
+    raw=importdata(filename{i}); %import raw data
+    data=[]; %create empty structure
+    data.x=raw.data(:,1); %load data into structure
+    data.y=raw.data(:,2);
+    data.u=raw.data(:,3);
+    data.v=raw.data(:,4);
+    numY=sum(raw.data(:,5)==raw.data(1,5));  %calculate analysis area length and width
+    numX=sum(raw.data(:,6)==raw.data(1,6));
+    data.x=reshape(data.x,[numX,numY])/(1E3); %convert vectors to matricies and scale to meters
+    data.y=reshape(data.y,[numX,numY])/(1E3);
+    data.u=reshape(data.u,[numX,numY])/(1E3);
+    data.v=reshape(data.v,[numX,numY])/(1E3);
+    data.k_u=zeros(numX,numY); %create empty arrays for later
+    data.k_u=zeros(numX,numY);
+    data.uT=zeros(numX,numY);
+    data.vT=zeros(numX,numY);
+    
+    for j=1:numX
+        for k=1:numY
+            r=sqrt(data.x(j,k)^2+data.y(j,k)^2);
+            theta=atan2(data.x(j,k),data.y(j,k));
+            theta(isnan(theta))=0;
+            data.k_u(j,k)=data.u(j,k)*(8*mu*pi)/(sqrt(2*pi*r)/((2*kappa-1)*cos(theta/2)-cos(3*theta/2))); %calculate experimental K_1
+            data.k_v(j,k)=data.v(j,k)*(8*mu*pi)/(sqrt(2*pi*r)*((2*kappa+1)*sin(theta/2)-sin(3*theta/2)));
+            data.vT(j,k)=K(i)/(8*mu*pi)*sqrt(2*pi*r)*((2*kappa-1)*cos(theta/2)-cos(3*theta/2)); %calculate theoretical displacements 
+            data.uT(j,k)=K(i)/(8*mu*pi)*sqrt(2*pi*r)*((2*kappa+1)*sin(theta/2)-sin(3*theta/2));
+        end
+    end
+    
+    data.k_u(abs(data.k_u)>=2)=0; % gid rid of large values where denominator approaches 0
+    data.k_v(abs(data.k_v)>=2)=0; % gid rid of large values where denominator approaches 0
+    Kexp1(i)=abs(data.k_v(a,b)); % Record experimental K_1 value at point 1
+    Kexp2(i)=abs(data.k_v(c,b)); % Record experimental K_1 value at point 2
+    
+    assignin('base',['raw',num2str(i)],raw); %create raw data structure to access outside the loop
+    assignin('base',['data',num2str(i)],data); %%create processed data structure to access outside the loop
+end
+
+figure; % Plot Experimental vs. Theoretical K_1 Value
+hold on
+plot(Load,K)
+plot(Load,Kexp1,'kd')
+plot(Load,Kexp2,'ro')
+xlabel('$\textrm{Load} (N)$','FontSize',16,'Interpreter','latex')
+ylabel('$K_1 (MPa \sqrt{m})$','FontSize',16,'Interpreter','latex')
+legend({'Theoretical K_1','Experimental K_1 Pt1','Experimental K_1 Pt2'},'Location','NorthWest','FontSize',12)
+
+%% 
