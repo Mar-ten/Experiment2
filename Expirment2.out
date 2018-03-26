@@ -1,9 +1,9 @@
 \BOOKMARK [1][-]{section.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.2}{Methods}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{Experimental Techniques}{section.2}% 3
-\BOOKMARK [3][-]{subsubsection.2.1.1}{Mechanical testing}{subsection.2.1}% 4
-\BOOKMARK [3][-]{subsubsection.2.1.2}{Digital Image Correlation}{subsection.2.1}% 5
-\BOOKMARK [3][-]{subsubsection.2.1.3}{Theoretical Calculations}{subsection.2.1}% 6
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Digital Image Correlation}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Experimental Determination of Displacement Fields}{subsection.2.1}% 5
+\BOOKMARK [3][-]{subsubsection.2.1.3}{Calculation of Stress Intensity Factors}{subsection.2.1}% 6
 \BOOKMARK [2][-]{subsection.2.2}{Procedure}{section.2}% 7
 \BOOKMARK [2][-]{subsection.2.3}{Error and Uncertainties}{section.2}% 8
 \BOOKMARK [1][-]{section.3}{Results}{}% 9
@@ -12,5 +12,4 @@
 \BOOKMARK [1][-]{section.6}{Figures}{}% 12
 \BOOKMARK [1][-]{section.7}{Tables}{}% 13
 \BOOKMARK [1][-]{section.8}{Appendix}{}% 14
-\BOOKMARK [2][-]{subsection.8.1}{equations}{section.8}% 15
-\BOOKMARK [2][-]{subsection.8.2}{Code}{section.8}% 16
+\BOOKMARK [2][-]{subsection.8.1}{Code}{section.8}% 15
