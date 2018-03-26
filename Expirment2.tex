@@ -80,7 +80,7 @@
 % git testing ii
 
 \begin{document}
-\title{ Analysis of Stress Intensity Factors for Mode I and Mixed Mode with Digital Image Correlation \\ \normalsize{ME EN 6960}}
+\title{ Analysis of Mode I and Mixed Mode Stress Intensity Factors with Digital Image Correlation \\ \normalsize{ME EN 6960}}
 \author{Nik Benko, John Callaway, Nick Dorsett, Martin Raming}
 \maketitle
 
@@ -113,31 +113,29 @@ An initial digital image is taken to be used as the reference image which is don
 For the DIC algorithm to be effective each subset must contain enough unique features.  These features are related to contrast or pixel values with in each subset. A high-contrast uniform granular  surface is desired to create such usable features. In practice this is known as a speckle pattern. A usable speckle pattern consists of uniformly dispersed speckles of  random shapes and varying sizes. The size of the speckles needed will depend on the size of the specimen and focusing distances. For example, a small specimen with the camera close will require very small speckles while a larger specimen with the camera backed off requires larger speckles. 
 
 \subsubsection{Experimental Determination of Displacement Fields} %John
-Mode 1 displacement fields can be obtained by loading a specimen that has an edge crack in a three point configuration. This configuration and specimen geometry is given in Figure \ref{fig:Geometry}. Alignment of the roller directly above the crack tip creates pure bending around the crack, which induces only mode I crack opening, and therefore mode I displacement fields.
-\\ \\
-Mixed mode displacement fields can be obtained by inducing eccentricity in the previously described three point loading configuration. This can be done by moving one of the lower support rollers, creating a combination of bending (Mode I) and shear (Mode II) around the crack. This configuration is given in Figure \ref{fig:Geometry_Mixed}.  
+Mode I displacement fields can be obtained by symmetrically loading a SENB specimen. The geometry of the SENB specimen is given in Figure \ref{fig:Geometry}. Alignment of the roller directly above the crack tip creates pure bending around the crack, which induces a predominantly Mode I crack opening, and therefore Mode I displacement fields. Mixed mode displacement fields can be obtained by inducing eccentricity in the SENB specimen. This can be done by moving one of the lower support rollers, creating a combination of bending (Mode I) and shear (Mode II) around the crack. This configuration is given in Figure \ref{fig:Geometry_Mixed}.  
 
-\subsubsection{Calculation of Stress Intensity Factors} %john - still need to add references
-Theoretical mode I stress intensity factors ($K_{I}$) can be calculated using the closed form equation:
+\subsubsection{Calculation of Stress Intensity Factors} %john -
+Theoretical Mode I stress intensity factors ($K_{I}$) can be calculated using the closed-form equation:
 \begin{equation}
 K_{I} = Y\sigma\sqrt{\pi a}
 \end{equation}
-where $\sigma$ is the farfield stress, a is the crack length and Y is a geometric factor specific to the loading configuration and specimen geometry. Using the solution developed in \textit{The Stress Analysis of Cracks Handbook}, the stress intensity factor for the single edge notched bend specimen being examined is:
+where $\sigma$ is the farfield stress, $a$ is the crack length and $Y$ is a geometric factor specific to the loading configuration and specimen geometry. Using the solution developed in \textit{The Stress Analysis of Cracks Handbook}, the stress intensity factor for the single edge notched bend specimen being examined is \cite{notch}
 \begin{equation}
-K_{I} = \frac{P}{B\sqrt{W}}\Bigg(\frac{\frac{3S}{W}\sqrt{\frac{a}{w}}}{2(1+\frac{2a}{w})(1-\frac{a}{w})^{1.5}}\Bigg)\Bigg[1.99-\frac{a}{w}\Big(1-\frac{a}{w}\Big)\Big[2.15-3.93\Big(\frac{a}{w}\Big)+2.7\Big(\frac{a}{w}\Big)^2\Big]\Bigg]
+K_{I} = \frac{P}{B\sqrt{w}}\Bigg(\frac{\frac{3S}{w}\sqrt{\frac{a}{w}}}{2(1+\frac{2a}{w})(1-\frac{a}{w})^{1.5}}\Bigg)\Bigg[1.99-\frac{a}{w}\Big(1-\frac{a}{w}\Big)\Big[2.15-3.93\Big(\frac{a}{w}\Big)+2.7\Big(\frac{a}{w}\Big)^2\Big]\Bigg]
 \end{equation}
-where P is the applied load, W is the specimen width, B is the specimen thickness and a is the crack length. 
+where $P$ is the applied load, $S$ is the support span, $w$ is the specimen width, $B$ is the specimen thickness and $a$ is the crack length. 
 \\ \\
-Experimental mode I stress intensity factors can be found using the experimental displacement fields. From the Westergaard solution, the displacements around the crack can be described by the following equations:
+Experimental Mode I stress intensity factors can be found using experimental displacement fields. From the Westergaard solution, the displacements around the crack can be described by the following equations \cite{Fracture}
 \begin{equation}
 u_{x} = \frac{K_{I}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa-1)cos\bigg(\frac{\theta}{2}\bigg)-cos\bigg(\frac{3\theta}{2}\bigg)\bigg]
 \end{equation}
 \begin{equation}
 u_{y} = \frac{K_{I}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa+1)sin\bigg(\frac{\theta}{2}\bigg)-sin\bigg(\frac{3\theta}{2}\bigg)\bigg]
 \end{equation}
-where (r,$\theta$) are the polar coordinate of the point, $\mu$ is the shear modulus and $\kappa$ is $\frac{3-\nu}{1+\nu}$ ($\nu$ is Poisson's ratio) for the plane stress state of the experiment.
+where ($r$,$\theta$) are the polar coordinates of the point, $\mu$ is the shear modulus, $\kappa$ = $\frac{3-\nu}{1+\nu}$, and $\nu$ is Poisson's ratio for the plane stress state of the experiment.
 \\ \\
-Mixed mode stress intensity factors can also be found using the experimental mixed mode displacement fields. The displacement field for a combined Mode I and Mode II loading situation is the sum of the displacements for each individual loading condition, as given by the following equations:
+Mixed mode stress intensity factors can also be found using the experimental mixed mode displacement fields. The displacement field for a combined Mode I and Mode II loading situation is the sum of the displacements for each individual loading condition, as given by the following equations \cite{Fracture}
 \begin{equation}
 u_{x} = \frac{K_{I}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa-1)cos\bigg(\frac{\theta}{2}\bigg)-cos\bigg(\frac{3\theta}{2}\bigg)\bigg] + \frac{K_{II}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa+3)sin\bigg(\frac{\theta}{2}\bigg)+sin\bigg(\frac{3\theta}{2}\bigg)\bigg]
 \end{equation}
@@ -225,7 +223,7 @@ test
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{Geometry.png}
-	\caption{Three point loading configuration of specimen, where S = 0.2032 m, w = 0.1524 m, a = 0.0254 m and a specimen thickness (B) of 0.00875 m. Applied load, P, is applied to the top roller}
+	\caption{Single Edged Notch Bend specimen, where thickness B = 8.75 mm. Applied load, P, is applied to the top roller}
 	\label{fig:Geometry}
 \end{figure}
 
@@ -233,7 +231,7 @@ test
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{Geometry_Mixed.png}
-	\caption{Three point loading configuration of specimen, where $S_{1}$ = 0.1016 m, $S_{2}$ = 0.0508 m, w = 0.1524 m, a = 0.0254 m, and a specimen thickness (B) of 0.00875 m. Applied load, P, is applied to the top roller}
+	\caption{Mixed mode Single Edged Notch Bend specimen, where thickness B = 8.75 mm. Applied load, P, is applied to the top roller}
 	\label{fig:Geometry_Mixed}
 \end{figure}
 % DIC setup
