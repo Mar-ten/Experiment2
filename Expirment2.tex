@@ -86,11 +86,18 @@
 
 
 \begin{abstract} 
-
+	Failure in a material is often dependent on the presence of flaws within the part. In this experiment, Digital Image Correlation was used to analyze the displacement of a thin sheet of PMMA with an induced edge crack within a symmetric three point bend configuration. This test was then repeated using an asymmetric three point bend configuration to produce a set of data under mixed mode loading. The Westergaard stress function solution for an edge crack was used to compute the stress intensity factors for each data set, and the Mode 1 data was compared to an analytical solution calculated with strength of materials equations. 
 \end{abstract}
 
 \section{Introduction} %Nick
 
+When a material fails, the theoretical stress required to break the molecular bonds is less than the ultimate stress. This occurs because of geometric features, such as cracks, which cause stress concentrations that magnify the effect of applied loads. Classical strengths of materials equations are useful for producing general solutions to problems, but in order to analyze specific cases in detail, Linear Elastic Fracture Mechanics (LEFM) are used instead. LEFM assumes that cracks are inherently present in a material, that a crack is a free surface within the surrounding stress field, the elastic solution surrounding this crack is based on a stress intensity factor K, and that the stress on the crack tip can be used to predict the crack propogation. Furthermore, the area surrounding a crack consists of three major parts. The first part, consisting of the crack tip, is a region of plastic deformation at which it is not valid to use LEFM due to the plastic deformation there. The second region is the linear elastic region, where LEFM is applied in describing the stress state of the material. The third section is the far field where the stress state is no longer affected by the presence of the crack. By analyzing the second region, information on the stress intensity factor can be determined for a variety of loads.
+\\
+\\
+In previous works, such as that of Dally and Sanford (citation), strain gauges were used to capture displacement around crack tips. While strain gauges are useful in providing displacement data, they also only are valid over the region directly underneath the gauge, limiting the information provided. Optical techniques, however, can be used to provide the full-field displacment data surrounding a crack. This data is useful because through analyzing the contours present in full-field data, it can be determined what mode in which the crack is loaded as well as provides a more complete data set for analysis. Photoelasticity and Moire Inferometry have been used successfully to measure the to capture material behavior. Digital image correlation is attractive method because it is applicable on most materials, does not require any particularly complicated equipment, and is easy to set up and use.
+\\
+\\
+This paper describes the use of digital image correlation (DIC) to capture displacement data around a crack tip when it undergoes pure Mode 1 loading and mixed Mode 1 and Mode 2 loadings. Using this information, the stress intensity factors are calculated using the Westergaard stress function solution for both Mode 1 and mixed mode loads. (Dally and Sanford). These calculated stress intensity factors from LEFM are then compared to the analytical solution for the given loading scenario.
 
 \section{Methods}
 
