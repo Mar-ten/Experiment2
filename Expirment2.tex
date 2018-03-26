@@ -150,9 +150,54 @@ We then took several images to obtain an initial reference and to get an estimat
 \subsection{Error and Uncertainties} %Martin
 
 \section{Results}%Nik
+In total, eight images were recorded and analyzed for each loading scenario. DIC was used to calculate $u_x$ and $u_y$ for each of the eight load increments. Rectangular sub-regions surrounding the crack were selected for analysis. Signal to Noise Ratio tended to decrease with increased load so analysis was focused on the 1010 N load increment. Equation3 and Equation 4 were inverted to solve for $K_I$ and experimental displacement fields were used to create contour plots of $K_I$, shown in Figure \ref{fig:kU} and Figure \ref{fig:kV}. Inverting these equations created singularities as the denominator trended towards 0 at $\theta = \pm \pi$, so values exceeding 10 were eliminated to increase contrast. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{K_U_T.png}
+	\caption{Contour plot of experimental values $K_1^U$.  Values above above 10 have been set to 0 for clarity}
+	\label{fig:kU}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{K_V_T.png}
+	\caption{Contour plot of experimental values $K_1^V$. Values above above 10 have been set to 0 for clarity}
+	\label{fig:kV}
+\end{figure}
+
+Experimental $K_I$ values were observed to be highly dependent on location. $K_I$ became less accurate as distance from the crack increased for values calculated from $u_x$ data. The opposite relation was observed for $u_y$ data. To analyze how well theoretical $K_I$ fit the experimental data, two points along the x-axis on the $K_I^{u_x}$ plot were chosen for further analysis. $K_I$ was then calculated for each of the eight load increments. Results are shown in Figure \ref{fig:K1}. $K_I$ at both locations closely matched predicted values with $R^2>0.98$ in both cases. 
+
+
+
+\begin{figure}[H]
+	\begin{center}
+		
+		\includegraphics[width=1\textwidth]{K_1_Comparisons.png}
+		\caption{Theoretical and experimental mode I stress intensity factor at two points along the x-axis.}
+		\label{fig:K1}
+	\end{center}
+\end{figure}
+
+Contour plots of raw $u_x$ and $u_y$ displacement data were drawn and shown in Figure \ref{cc1} and Figure \ref{fig:cc2}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{contourCompare_8_1.png}
+	\caption{Comparison between theoretical and experimental U displacements}
+	\label{fig:cc1}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=1\textwidth]{contourCompare_8_2.png}
+	\caption{Comparison between theoretical and experimental V displacements}
+	\label{fig:cc2}
+\end{figure}
+
 
 \section{Discussion}%Nik
-
+The general shape of both $u_x$ and $u_y$ fields in Mode I tests matched well with predictions. Field magnitudes also agreed closely, but spacing between contour lines did not always match perfectly. The roughness in experimental contours is likely due to errors inherent in DIC methods such as finite pixel/speckle size and subset selection. There are several possible explanations for disagreements in contour spacing. First, theoretical calculations depend on bulk modulus, $\mu$, which was not measured, but derived from Young's Modulus and Poisson's ratio, taken from on-line sources. Additionally, theoretical calculations assume an infinitely thin crack with a sharp tip. The test specimen crack was cut with a band saw and therefore has a finite width and a blunted tip. 
 \section{Conclusion}%Nick
 
 \section{Figures}
