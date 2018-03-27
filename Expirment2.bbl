@@ -26,6 +26,11 @@ H.~W.~S. Michael A.~Sutton, Jean-Jose~Orteu, \emph{Image Correlation for Shape,
   Motion and Deformation Measurements}.\hskip 1em plus 0.5em minus 0.4em\relax
   Springer, 2009.
 
+\bibitem{speckle}
+S.~B. H. S. J. V. D. V. H. A.~H. D.~Lecompte, A.~Smiths, ``Quaality assessment
+  of speckle patterns for digital image correlation,'' \emph{Optics and Lazers
+  in Enginerring}, 2006.
+
 \bibitem{notch}
 G.~I. H.~Tada, P.C.~Paris, \emph{The Stress Analysis of Cracks Handbook},
   2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Paris Productions, 1985.
@@ -34,7 +39,13 @@ G.~I. H.~Tada, P.C.~Paris, \emph{The Stress Analysis of Cracks Handbook},
 T.~Anderson, \emph{Fracture Mechanics Fundamentals and Applications},
   3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax CRC Press, 2005.
 
+\bibitem{DIC_Test}
+\emph{Vic-2d v6 Testing Guide}, Correlated Solutions.
+
 \bibitem{Vic-2D}
 \emph{Vic-2D Referance Manual}, Correlated Solutions.
+
+\bibitem{DIC_Err}
+\emph{Minimizing Noise And Bias in 3D DIC}, Correlated Solutions.
 
 \end{thebibliography}

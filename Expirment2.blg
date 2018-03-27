@@ -1,56 +1,17 @@
-This is BibTeX, Version 0.99d (TeX Live 2017)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
-The top-level auxiliary file: Expirment2.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Expirment2.aux
 The style file: IEEEtran.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: Lab2Bib.bib
 -- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Too many commas in name 1 of "D. Lecompte, A. Smiths, Sven Bossuyt, H. Sol, J. Vantomme, D. Van Hemelrijk, A.M. Habraken" for entry speckle
+while executing---line 2403 of file IEEEtran.bst
+Too many commas in name 1 of "D. Lecompte, A. Smiths, Sven Bossuyt, H. Sol, J. Vantomme, D. Van Hemelrijk, A.M. Habraken" for entry speckle
+while executing---line 2403 of file IEEEtran.bst
+Too many commas in name 1 of "D. Lecompte, A. Smiths, Sven Bossuyt, H. Sol, J. Vantomme, D. Van Hemelrijk, A.M. Habraken" for entry speckle
+while executing---line 2403 of file IEEEtran.bst
+Too many commas in name 1 of "D. Lecompte, A. Smiths, Sven Bossuyt, H. Sol, J. Vantomme, D. Van Hemelrijk, A.M. Habraken" for entry speckle
+while executing---line 2403 of file IEEEtran.bst
 
 Done.
-You've used 4 entries,
-            4087 wiz_defined-function locations,
-            844 strings with 7676 characters,
-and the built_in function-call counts, 1512 in all, are:
-= -- 88
-> -- 19
-< -- 6
-+ -- 7
-- -- 3
-* -- 63
-:= -- 253
-add.period$ -- 7
-call.type$ -- 4
-change.case$ -- 2
-chr.to.int$ -- 18
-cite$ -- 4
-duplicate$ -- 129
-empty$ -- 175
-format.name$ -- 3
-if$ -- 339
-int.to.chr$ -- 0
-int.to.str$ -- 4
-missing$ -- 21
-newline$ -- 35
-num.names$ -- 3
-pop$ -- 70
-preamble$ -- 1
-purify$ -- 0
-quote$ -- 2
-skip$ -- 112
-stack$ -- 0
-substring$ -- 17
-swap$ -- 59
-text.length$ -- 0
-text.prefix$ -- 0
-top$ -- 5
-type$ -- 4
-warning$ -- 0
-while$ -- 5
-width$ -- 5
-write$ -- 49
+(There were 4 error messages)
