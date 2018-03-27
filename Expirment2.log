@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.13)  26 MAR 2018 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.13)  26 MAR 2018 18:49
 entering extended mode
 **./Expirment2.tex
 (Expirment2.tex
@@ -743,15 +743,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 
 [6]
 
-LaTeX Warning: Reference `cc1' on page 7 undefined on input line 169.
-
-
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[7] <DIC_Setup.png, id=145, 1832.8475pt x 1084.05pt>
+[7] <DIC_Setup.png, id=149, 1832.8475pt x 1084.05pt>
 File: DIC_Setup.png Graphic file (type png)
  <use DIC_Setup.png>
 Package pdftex.def Info: DIC_Setup.png used on input line 181.
@@ -763,7 +760,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[8] <Geometry.png, id=152, 803.0pt x 351.3125pt>
+[8] <Geometry.png, id=158, 803.0pt x 351.3125pt>
 File: Geometry.png Graphic file (type png)
  <use Geometry.png>
 Package pdftex.def Info: Geometry.png used on input line 189.
@@ -775,13 +772,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[9 <./DIC_Setup.png>] <Geometry_Mixed.png, id=159, 803.0pt x 351.3125pt>
+[9 <./DIC_Setup.png>] <Geometry_Mixed.png, id=165, 803.0pt x 351.3125pt>
 File: Geometry_Mixed.png Graphic file (type png)
 
 <use Geometry_Mixed.png>
 Package pdftex.def Info: Geometry_Mixed.png used on input line 197.
 (pdftex.def)             Requested size: 542.02501pt x 237.1525pt.
- <K_U_T_2.png, id=160, 1445.4pt x 724.95844pt>
+ <K_U_T_2.png, id=166, 1445.4pt x 724.95844pt>
 File: K_U_T_2.png Graphic file (type png)
 
 <use K_U_T_2.png>
@@ -795,13 +792,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [10 <./Geometry.png> <./Geometry_Mixed.png>]
-<K_V_T_2.png, id=168, 1445.4pt x 724.95844pt>
+<K_V_T_2.png, id=174, 1445.4pt x 724.95844pt>
 File: K_V_T_2.png Graphic file (type png)
  <use K_V_T_2.png>
 Package pdftex.def Info: K_V_T_2.png used on input line 212.
 (pdftex.def)             Requested size: 542.02501pt x 271.85875pt.
 
-<K_1_Comparisons.png, id=169, 421.575pt x 316.18124pt>
+<K_1_Comparisons.png, id=175, 421.575pt x 316.18124pt>
 File: K_1_Comparisons.png Graphic file (type png)
 
 <use K_1_Comparisons.png>
@@ -815,7 +812,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [11 <./K_U_T_2.png (PNG copy)> <./K_V_T_2.png (PNG copy)>]
-<cc_x.png, id=175, 1445.4pt x 706.13812pt>
+<cc_x.png, id=181, 1445.4pt x 706.13812pt>
 File: cc_x.png Graphic file (type png)
  <use cc_x.png>
 Package pdftex.def Info: cc_x.png used on input line 229.
@@ -828,22 +825,16 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [12 <./K_1_Comparisons.png (PNG copy)>]
-<cc_y.png, id=181, 1445.4pt x 724.95844pt>
+<cc_y.png, id=187, 1445.4pt x 724.95844pt>
 File: cc_y.png Graphic file (type png)
  <use cc_y.png>
 Package pdftex.def Info: cc_y.png used on input line 236.
 (pdftex.def)             Requested size: 542.02501pt x 271.85875pt.
 
-<quiverMixedMode.png, id=182, 562.1pt x 421.575pt>
-File: quiverMixedMode.png Graphic file (type png)
- <use quiverMixedMode.png>
-Package pdftex.def Info: quiverMixedMode.png used on input line 243.
-(pdftex.def)             Requested size: 542.02501pt x 406.54071pt.
-
-<QuiverModeI.png, id=183, 562.1pt x 421.575pt>
+<QuiverModeI.png, id=188, 562.1pt x 421.575pt>
 File: QuiverModeI.png Graphic file (type png)
  <use QuiverModeI.png>
-Package pdftex.def Info: QuiverModeI.png used on input line 250.
+Package pdftex.def Info: QuiverModeI.png used on input line 244.
 (pdftex.def)             Requested size: 542.02501pt x 406.54071pt.
 
 
@@ -853,13 +844,19 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [13 <./cc_x.png (PNG copy)> <./cc_y.png (PNG copy)>]
+<quiverMixedMode.png, id=195, 562.1pt x 421.575pt>
+File: quiverMixedMode.png Graphic file (type png)
+ <use quiverMixedMode.png>
+Package pdftex.def Info: quiverMixedMode.png used on input line 251.
+(pdftex.def)             Requested size: 542.02501pt x 406.54071pt.
+
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[14 <./quiverMixedMode.png (PNG copy)>]
+[14 <./QuiverModeI.png (PNG copy)>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
@@ -869,7 +866,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[15 <./QuiverModeI.png (PNG copy)>]
+[15 <./quiverMixedMode.png (PNG copy)>]
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
@@ -884,31 +881,27 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  This may cause the page layout to be inconsistent, however.
 
 [16]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 300.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 300.
  (Expirment2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 300.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 300.
 Package rerunfilecheck Info: File `Expirment2.out' has not changed.
 (rerunfilecheck)             Checksum: 8A7818966B23E6248FE817DAC96B11AB;913.
-
-
-LaTeX Warning: There were undefined references.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 300.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 78 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 12749 strings out of 493335
- 193322 string characters out of 3139260
- 363614 words of memory out of 3000000
- 15919 multiletter control sequences out of 15000+200000
+ 12748 strings out of 493335
+ 193317 string characters out of 3139260
+ 363622 words of memory out of 3000000
+ 15918 multiletter control sequences out of 15000+200000
  18295 words of font info for 105 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,12n,43p,1352b,1463s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,12n,43p,1352b,1445s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
@@ -922,9 +915,9 @@ mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Expirment2.pdf (16 pages, 1933376 bytes).
+Output written on Expirment2.pdf (16 pages, 1933901 bytes).
 PDF statistics:
- 266 PDF objects out of 1000 (max. 8388607)
+ 269 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)
  18603 words of extra memory for PDF output out of 20736 (max. 10000000)
 
