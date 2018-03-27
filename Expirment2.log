@@ -1,9 +1,22 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.16)  27 MAR 2018 13:14
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.13)  27 MAR 2018 10:50
+entering extended mode
+**./Expirment2.tex
+(Expirment2.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2018.2.16)  27 MAR 2018 11:00
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 entering extended mode
 **./Expirment2.tex
 (Expirment2.tex
 LaTeX2e <2017-04-15>
 Babel <3.15> and hyphenation patterns for 75 language(s) loaded.
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -22,7 +35,11 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \bibindent=\dimen102
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+<<<<<<< HEAD
+Package: amsmath 2016/03/10 v2.15b AMS math features
+=======
 Package: amsmath 2017/09/02 v2.17a AMS math features
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
@@ -42,20 +59,20 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count87
-LaTeX Info: Redefining \frac on input line 213.
+LaTeX Info: Redefining \frac on input line 199.
 \uproot@=\count88
 \leftroot@=\count89
-LaTeX Info: Redefining \overline on input line 375.
+LaTeX Info: Redefining \overline on input line 297.
 \classnum@=\count90
 \DOTSCASE@=\count91
-LaTeX Info: Redefining \ldots on input line 472.
-LaTeX Info: Redefining \dots on input line 475.
-LaTeX Info: Redefining \cdots on input line 596.
+LaTeX Info: Redefining \ldots on input line 394.
+LaTeX Info: Redefining \dots on input line 397.
+LaTeX Info: Redefining \cdots on input line 518.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 634.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 635.
 \macc@depth=\count92
 \c@MaxMatrixCols=\count93
 \dotsspace@=\muskip10
@@ -76,8 +93,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks18
-LaTeX Info: Redefining \[ on input line 2817.
-LaTeX Info: Redefining \] on input line 2818.
+LaTeX Info: Redefining \[ on input line 2739.
+LaTeX Info: Redefining \] on input line 2740.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -94,41 +111,63 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+<<<<<<< HEAD
+Package: graphics 2016/05/09 v1.0r Standard LaTeX Graphics (DPC,SPQR)
+=======
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
+<<<<<<< HEAD
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2016/01/02 v1.10 sample graphics configuration
+=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 96.
 
+<<<<<<< HEAD
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count99
+=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
 File: pdftex.def 2017/12/07 v1.0i Graphics/color driver for pdftex
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
 )
-\lst@mode=\count99
+\lst@mode=\count100
 \lst@gtempboxa=\box28
 \lst@token=\toks20
-\lst@length=\count100
+\lst@length=\count101
 \lst@currlwidth=\dimen112
-\lst@column=\count101
-\lst@pos=\count102
+\lst@column=\count102
+\lst@pos=\count103
 \lst@lostspace=\dimen113
 \lst@width=\dimen114
-\lst@newlines=\count103
-\lst@lineno=\count104
+\lst@newlines=\count104
+\lst@lineno=\count105
 \lst@maxwidth=\dimen115
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count105
-\lst@skipnumbers=\count106
+\c@lstnumber=\count106
+\lst@skipnumbers=\count107
 \lst@framebox=\box29
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
@@ -137,17 +176,27 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+<<<<<<< HEAD
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+=======
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 \Gin@req@height=\dimen116
 \Gin@req@width=\dimen117
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+<<<<<<< HEAD
+Package: color 2016/05/09 v1.1c Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+=======
 Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 147.
+Package color Info: Driver file: pdftex.def on input line 144.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\comment\comment.sty"
 \CommentStream=\write3
@@ -157,14 +206,18 @@ Excluding comment 'comment')
 Package: accents 2006/05/12 v1.3 Math Accent Tools
 \cc@skew=\dimen118
 \cc@wd=\dimen119
-\cc@code=\count107
-\cc@group=\count108
-\cc@skewchar=\count109
+\cc@code=\count108
+\cc@group=\count109
+\cc@skewchar=\count110
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
+<<<<<<< HEAD
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+=======
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -173,7 +226,11 @@ Package xcolor Info: Driver file: pdftex.def on input line 225.
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+<<<<<<< HEAD
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+=======
 Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 \col@sep=\dimen120
 \extrarowheight=\dimen121
 \NC@list=\toks21
@@ -184,7 +241,7 @@ Package: array 2016/10/06 v2.4d Tabular extension package (FMi)
 \minrowclearance=\skip48
 )
 LaTeX Info: Redefining \color on input line 709.
-\rownum=\count110
+\rownum=\count111
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
 Package xcolor Info: Model `RGB' extended on input line 1364.
@@ -217,7 +274,11 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 \JustifyingParindent=\skip62
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+<<<<<<< HEAD
+Package: hyperref 2016/05/21 v6.83p Hypertext links for LaTeX
+=======
 Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
@@ -226,14 +287,14 @@ Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -241,7 +302,11 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+<<<<<<< HEAD
+Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+=======
 Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -259,7 +324,7 @@ Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
 Package: xcolor-patch 2016/05/16 xcolor patch
 Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: atbegshi 2016/05/16 v1.17 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
@@ -273,17 +338,31 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen122
-\Hy@linkcounter=\count111
-\Hy@pagecounter=\count112
+\Hy@linkcounter=\count112
+\Hy@pagecounter=\count113
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+<<<<<<< HEAD
+File: pd1enc.def 2016/05/21 v6.83p Hyperref: PDFDocEncoding definition (HO)
+=======
 File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 )
-\Hy@SavedSpaceFactor=\count113
+\Hy@SavedSpaceFactor=\count114
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
+<<<<<<< HEAD
+Package hyperref Info: Hyper figures OFF on input line 4486.
+Package hyperref Info: Link nesting OFF on input line 4491.
+Package hyperref Info: Hyper index ON on input line 4494.
+Package hyperref Info: Plain pages OFF on input line 4501.
+Package hyperref Info: Backreferencing OFF on input line 4506.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4735.
+\c@Hy@tempcnt=\count115
+=======
 Package hyperref Info: Hyper figures OFF on input line 4498.
 Package hyperref Info: Link nesting OFF on input line 4503.
 Package hyperref Info: Hyper index ON on input line 4506.
@@ -292,16 +371,35 @@ Package hyperref Info: Backreferencing OFF on input line 4518.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4751.
 \c@Hy@tempcnt=\count114
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
+<<<<<<< HEAD
+LaTeX Info: Redefining \url on input line 5088.
+=======
 LaTeX Info: Redefining \url on input line 5104.
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 \XeTeXLinkMargin=\dimen123
-\Fld@menulength=\count115
+\Fld@menulength=\count116
 \Field@Width=\dimen124
 \Fld@charsize=\dimen125
+<<<<<<< HEAD
+Package hyperref Info: Hyper figures OFF on input line 6342.
+Package hyperref Info: Link nesting OFF on input line 6347.
+Package hyperref Info: Hyper index ON on input line 6350.
+Package hyperref Info: backreferencing OFF on input line 6357.
+Package hyperref Info: Link coloring OFF on input line 6362.
+Package hyperref Info: Link coloring with OCG OFF on input line 6367.
+Package hyperref Info: PDF/A mode OFF on input line 6372.
+LaTeX Info: Redefining \ref on input line 6412.
+LaTeX Info: Redefining \pageref on input line 6416.
+\Hy@abspage=\count117
+\c@Item=\count118
+\c@Hfootnote=\count119
+=======
 Package hyperref Info: Hyper figures OFF on input line 6358.
 Package hyperref Info: Link nesting OFF on input line 6363.
 Package hyperref Info: Hyper index ON on input line 6366.
@@ -314,14 +412,21 @@ LaTeX Info: Redefining \pageref on input line 6432.
 \Hy@abspage=\count116
 \c@Item=\count117
 \c@Hfootnote=\count118
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+<<<<<<< HEAD
+File: hpdftex.def 2016/05/21 v6.83p Hyperref driver for pdfTeX
+\Fld@listcount=\count120
+\c@bookmark@seq@number=\count121
+=======
 File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
 \Fld@listcount=\count119
 \c@bookmark@seq@number=\count120
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
@@ -355,16 +460,16 @@ Package caption3 Info: TeX engine: e-TeX on input line 67.
 \caption@parindent=\dimen135
 \caption@hangindent=\dimen136
 )
-\c@ContinuedFloat=\count121
+\c@ContinuedFloat=\count122
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 )
-\c@subfigure=\count122
-\c@subtable=\count123
+\c@subfigure=\count123
+\c@subtable=\count124
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count124
+\c@float@type=\count125
 \float@exts=\toks23
 \float@box=\box30
 \@float@everytoks=\toks24
@@ -382,31 +487,35 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \cmidrulesep=\dimen144
 \cmidrulekern=\dimen145
 \defaultaddspace=\dimen146
-\@cmidla=\count125
-\@cmidlb=\count126
+\@cmidla=\count126
+\@cmidlb=\count127
 \@aboverulesep=\dimen147
 \@belowrulesep=\dimen148
-\@thisruleclass=\count127
-\@lastruleclass=\count128
+\@thisruleclass=\count128
+\@lastruleclass=\count129
 \@thisrulewidth=\dimen149
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pdfpages.sty"
+<<<<<<< HEAD
+Package: pdfpages 2016/04/19 v0.5f Insert pages of external PDF documents (AM)
+=======
 Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count129
-\calc@Bcount=\count130
+\calc@Acount=\count130
+\calc@Bcount=\count131
 \calc@Adimen=\dimen150
 \calc@Bdimen=\dimen151
 \calc@Askip=\skip65
 \calc@Bskip=\skip66
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count131
+\calc@Ccount=\count132
 \calc@Cskip=\skip67
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\eso-pic\eso-pic.sty"
@@ -416,12 +525,16 @@ Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
 \AM@pageheight=\dimen153
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdfpages\pppdftex.def"
+<<<<<<< HEAD
+File: pppdftex.def 2016/04/19 v0.5f Pdfpages driver for pdfTeX (AM)
+=======
 File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 )
 \AM@pagebox=\box32
 \AM@global@opts=\toks25
 \AM@toc@title=\toks26
-\c@AM@survey=\count132
+\c@AM@survey=\count133
 \AM@templatesizebox=\box33
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
@@ -430,12 +543,20 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen154
 \enit@toks=\toks27
 \enit@inbox=\box34
-\enitdp@description=\count133
+\enitdp@description=\count134
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\placeins\placeins.sty"
 Package: placeins 2005/04/18  v 2.2
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\stackengine\stackengine.sty"
+<<<<<<< HEAD
+Package: stackengine 2014/01/06 v3.24\ Stacking text and objects in convenient 
+ways
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\etoolbox\etoolbox.sty"
+Package: etoolbox 2015/08/02 v2.2a e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count135
+=======
 Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
 ways
 
@@ -449,6 +570,7 @@ Package: etoolbox 2018/02/11 v2.5e e-TeX tools for LaTeX (JAW)
 )
 Package: listofitems 2018/01/13 v1.52 Grab items in lists using user-specified 
 sep char (CT)
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 )
 \c@@stackindex=\count136
 \@boxshift=\skip69
@@ -468,6 +590,17 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+<<<<<<< HEAD
+\fancy@headwidth=\skip73
+\f@ncyO@elh=\skip74
+\f@ncyO@erh=\skip75
+\f@ncyO@olh=\skip76
+\f@ncyO@orh=\skip77
+\f@ncyO@elf=\skip78
+\f@ncyO@erf=\skip79
+\f@ncyO@olf=\skip80
+\f@ncyO@orf=\skip81
+=======
 Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
 s
 \f@nch@headwidth=\skip73
@@ -479,6 +612,7 @@ s
 \f@nch@O@erf=\skip79
 \f@nch@O@olf=\skip80
 \f@nch@O@orf=\skip81
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
@@ -497,25 +631,37 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+<<<<<<< HEAD
+Package: microtype 2016/05/14 v2.6a Micro-typographical refinements (RS)
+=======
 Package: microtype 2018/01/14 v2.7a Micro-typographical refinements (RS)
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 \MT@toks=\toks29
 \MT@count=\count141
-LaTeX Info: Redefining \textls on input line 793.
+LaTeX Info: Redefining \textls on input line 774.
 \MT@outer@kern=\dimen163
-LaTeX Info: Redefining \textmicrotypecontext on input line 1339.
+LaTeX Info: Redefining \textmicrotypecontext on input line 1310.
 \MT@listname@count=\count142
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+<<<<<<< HEAD
+File: microtype-pdftex.def 2016/05/14 v2.6a Definitions specific to pdftex (RS)
+=======
 File: microtype-pdftex.def 2018/01/14 v2.7a Definitions specific to pdftex (RS)
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 
-LaTeX Info: Redefining \lsstyle on input line 913.
-LaTeX Info: Redefining \lslig on input line 913.
+LaTeX Info: Redefining \lsstyle on input line 916.
+LaTeX Info: Redefining \lslig on input line 916.
 \MT@outer@space=\skip82
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+<<<<<<< HEAD
+File: microtype.cfg 2016/05/14 v2.6a microtype main configuration file (RS)
+=======
 File: microtype.cfg 2018/01/14 v2.7a microtype main configuration file (RS)
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -555,10 +701,8 @@ Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
@@ -755,7 +899,11 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
+[7] <DIC_Setup.png, id=157, 1458.44875pt x 1089.06876pt>
+=======
 [7]
+<<<<<<< HEAD
 <DIC_Setup.png, id=151, 1458.44875pt x 1089.06876pt>
 File: DIC_Setup.png Graphic file (type png)
 <use DIC_Setup.png>
@@ -765,6 +913,30 @@ Package pdftex.def Info: DIC_Setup.png  used on input line 176.
 File: Geometry.png Graphic file (type png)
 <use Geometry.png>
 Package pdftex.def Info: Geometry.png  used on input line 184.
+=======
+<DIC_Setup.png, id=157, 1458.44875pt x 1089.06876pt>
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
+File: DIC_Setup.png Graphic file (type png)
+ <use DIC_Setup.png>
+Package pdftex.def Info: DIC_Setup.png used on input line 185.
+(pdftex.def)             Requested size: 542.02501pt x 404.74385pt.
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 14.49998pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+<<<<<<< HEAD
+[8] <Geometry.png, id=164, 803.0pt x 351.3125pt>
+=======
+[8]
+<Geometry.png, id=164, 803.0pt x 351.3125pt>
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
+File: Geometry.png Graphic file (type png)
+ <use Geometry.png>
+Package pdftex.def Info: Geometry.png used on input line 193.
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 (pdftex.def)             Requested size: 542.02501pt x 237.1525pt.
 
 
@@ -773,16 +945,41 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
+<<<<<<< HEAD
 [8 <./DIC_Setup.png>]
 <Geometry_Mixed.png, id=160, 803.0pt x 351.3125pt>
+=======
+<<<<<<< HEAD
+[9 <./DIC_Setup.png>] <Geometry_Mixed.png, id=171, 803.0pt x 351.3125pt>
+=======
+[9 <./DIC_Setup.png>]
+<Geometry_Mixed.png, id=171, 803.0pt x 351.3125pt>
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 File: Geometry_Mixed.png Graphic file (type png)
+
 <use Geometry_Mixed.png>
+<<<<<<< HEAD
 Package pdftex.def Info: Geometry_Mixed.png  used on input line 192.
 (pdftex.def)             Requested size: 542.02501pt x 237.1525pt.
 <K_U_T_2.png, id=161, 1445.4pt x 724.95844pt>
+=======
+Package pdftex.def Info: Geometry_Mixed.png used on input line 201.
+(pdftex.def)             Requested size: 542.02501pt x 237.1525pt.
+<<<<<<< HEAD
+ <K_U_T_2.png, id=172, 1445.4pt x 724.95844pt>
+=======
+<K_U_T_2.png, id=172, 1445.4pt x 724.95844pt>
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 File: K_U_T_2.png Graphic file (type png)
+
 <use K_U_T_2.png>
+<<<<<<< HEAD
 Package pdftex.def Info: K_U_T_2.png  used on input line 200.
+=======
+Package pdftex.def Info: K_U_T_2.png used on input line 209.
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 (pdftex.def)             Requested size: 542.02501pt x 271.85875pt.
 
 
@@ -794,13 +991,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [9 <./Geometry.png> <./Geometry_Mixed.png>]
 <K_V_T_2.png, id=169, 1445.4pt x 724.95844pt>
 File: K_V_T_2.png Graphic file (type png)
+<<<<<<< HEAD
 <use K_V_T_2.png>
 Package pdftex.def Info: K_V_T_2.png  used on input line 207.
 (pdftex.def)             Requested size: 542.02501pt x 271.85875pt.
 <K_1_Comparisons.png, id=170, 421.575pt x 316.18124pt>
+=======
+ <use K_V_T_2.png>
+Package pdftex.def Info: K_V_T_2.png used on input line 216.
+(pdftex.def)             Requested size: 542.02501pt x 271.85875pt.
+<<<<<<< HEAD
+
+=======
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
+<K_1_Comparisons.png, id=181, 421.575pt x 316.18124pt>
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 File: K_1_Comparisons.png Graphic file (type png)
+
 <use K_1_Comparisons.png>
+<<<<<<< HEAD
 Package pdftex.def Info: K_1_Comparisons.png  used on input line 216.
+=======
+Package pdftex.def Info: K_1_Comparisons.png used on input line 225.
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 (pdftex.def)             Requested size: 542.02501pt x 406.52945pt.
 
 
@@ -812,8 +1025,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [10 <./K_U_T_2.png (PNG copy)> <./K_V_T_2.png (PNG copy)>]
 <cc_x.png, id=176, 1445.4pt x 706.13812pt>
 File: cc_x.png Graphic file (type png)
+<<<<<<< HEAD
 <use cc_x.png>
 Package pdftex.def Info: cc_x.png  used on input line 224.
+=======
+ <use cc_x.png>
+Package pdftex.def Info: cc_x.png used on input line 233.
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 (pdftex.def)             Requested size: 542.02501pt x 264.80115pt.
 
 
@@ -825,6 +1043,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [11 <./K_1_Comparisons.png (PNG copy)>]
 <cc_y.png, id=182, 1445.4pt x 724.95844pt>
 File: cc_y.png Graphic file (type png)
+<<<<<<< HEAD
 <use cc_y.png>
 Package pdftex.def Info: cc_y.png  used on input line 231.
 (pdftex.def)             Requested size: 542.02501pt x 271.85875pt.
@@ -832,6 +1051,19 @@ Package pdftex.def Info: cc_y.png  used on input line 231.
 File: QuiverModeI.png Graphic file (type png)
 <use QuiverModeI.png>
 Package pdftex.def Info: QuiverModeI.png  used on input line 239.
+=======
+ <use cc_y.png>
+Package pdftex.def Info: cc_y.png used on input line 240.
+(pdftex.def)             Requested size: 542.02501pt x 271.85875pt.
+<<<<<<< HEAD
+
+=======
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
+<QuiverModeI.png, id=194, 1207.51125pt x 595.22375pt>
+File: QuiverModeI.png Graphic file (type png)
+ <use QuiverModeI.png>
+Package pdftex.def Info: QuiverModeI.png used on input line 248.
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 (pdftex.def)             Requested size: 1207.5083pt x 595.2223pt.
 
 
@@ -843,8 +1075,13 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [12 <./cc_x.png (PNG copy)> <./cc_y.png (PNG copy)>]
 <quiverMixedMode.png, id=189, 1207.51125pt x 595.22375pt>
 File: quiverMixedMode.png Graphic file (type png)
+
 <use quiverMixedMode.png>
+<<<<<<< HEAD
 Package pdftex.def Info: quiverMixedMode.png  used on input line 246.
+=======
+Package pdftex.def Info: quiverMixedMode.png used on input line 255.
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 (pdftex.def)             Requested size: 1207.5083pt x 595.2223pt.
 
 
@@ -877,6 +1114,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 294.
 ### semi simple group (level 1) entered at line 78 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  12846 strings out of 493312
  195219 string characters out of 3138902
  361749 words of memory out of 3000000
@@ -884,6 +1122,25 @@ Here is how much of TeX's memory you used:
  17109 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  42i,12n,43p,1357b,1412s stack positions out of 5000i,500n,10000p,200000b,50000s
+=======
+<<<<<<< HEAD
+ 12759 strings out of 493335
+ 193354 string characters out of 3139260
+ 363913 words of memory out of 3000000
+ 15917 multiletter control sequences out of 15000+200000
+ 18422 words of font info for 110 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,12n,43p,1345b,1443s stack positions out of 5000i,500n,10000p,200000b,50000s
+=======
+ 12876 strings out of 493312
+ 195592 string characters out of 3138902
+ 362093 words of memory out of 3000000
+ 16050 multiletter control sequences out of 15000+200000
+ 18422 words of font info for 110 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,12n,43p,1345b,1412s stack positions out of 5000i,500n,10000p,200000b,50000s
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Prog
@@ -897,7 +1154,15 @@ mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+<<<<<<< HEAD
 Output written on Expirment2.pdf (14 pages, 6839893 bytes).
+=======
+<<<<<<< HEAD
+Output written on Expirment2.pdf (16 pages, 6859146 bytes).
+=======
+Output written on Expirment2.pdf (16 pages, 6850845 bytes).
+>>>>>>> f7c4df76f550ac7ac8e3460b98dbc36b67235875
+>>>>>>> e4a05bdb05495f5460097c18220e5588953fa9e4
 PDF statistics:
  259 PDF objects out of 1000 (max. 8388607)
  53 named destinations out of 1000 (max. 500000)
