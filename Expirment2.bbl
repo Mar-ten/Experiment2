@@ -21,6 +21,20 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
+\bibitem{straingauge}
+E.~T. Levend~Parnast, Omer G.~Bilir, ``Strain gage methods for measurement of
+  opening mode stress intensity factor,'' \emph{Engineering Fracture
+  Mechanics}, 1996.
+
+\bibitem{Zhang}
+L.~H. Rui~Zhang, ``Measurement of mixed-mode stress intensity factors using
+  digital image correlationmethod,'' \emph{Optics and Lazers in Enginerring},
+  2012.
+
+\bibitem{Fracture}
+T.~Anderson, \emph{Fracture Mechanics Fundamentals and Applications},
+  3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax CRC Press, 2005.
+
 \bibitem{DIC}
 H.~W.~S. Michael A.~Sutton, Jean-Jose~Orteu, \emph{Image Correlation for Shape,
   Motion and Deformation Measurements}.\hskip 1em plus 0.5em minus 0.4em\relax
@@ -34,10 +48,6 @@ S.~B. H. S. J. V. D. V. H. A.~H. D.~Lecompte, A.~Smiths, ``Quality assessment
 \bibitem{notch}
 G.~I. H.~Tada, P.C.~Paris, \emph{The Stress Analysis of Cracks Handbook},
   2nd~ed.\hskip 1em plus 0.5em minus 0.4em\relax Paris Productions, 1985.
-
-\bibitem{Fracture}
-T.~Anderson, \emph{Fracture Mechanics Fundamentals and Applications},
-  3rd~ed.\hskip 1em plus 0.5em minus 0.4em\relax CRC Press, 2005.
 
 \bibitem{DIC_Test}
 \emph{Vic-2d v6 Testing Guide}, Correlated Solutions.

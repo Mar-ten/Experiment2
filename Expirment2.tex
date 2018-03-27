@@ -86,29 +86,28 @@
 
 
 \begin{abstract} 
-	Failure in a material is often dependent on the presence of flaws within the part. One form these flaws take is in cracks which appear along the edge of a part. In this experiment, Digital Image Correlation was used to analyze the displacement field of a thin sheet of polymethyl methacrylate during a Single Edged Notch Bend test. This test was then repeated using an asymmetric three point bend configuration to produce a set of data under mixed mode loading. The Westergaard stress function solution for an edge crack was used to compute the stress intensity factors for each data set, and the Mode 1 data was compared to an analytical solution calculated with strength of materials equations. 
+	Failure in a material is often dependent on the presence of flaws within the part. One form these flaws take is in cracks which appear along the edge of a part. In this experiment, Digital Image Correlation was used to analyze the displacement field of a thin sheet of polymethyl methacrylate during a Single Edged Notch Bend test. This test was then repeated using an asymmetric three point bend configuration to produce a set of data under mixed mode loading. The Westergaard stress function solution for an edge crack was used to compute the stress intensity factors for each data set, and the Mode I data was compared to an analytical solution calculated with strength of materials equations. 
 \end{abstract}
 
 \section{Introduction} %Nick
 
-When a material fails, the theoretical stress required to break the molecular bonds is less than the ultimate stress. This occurs because of geometric features, such as cracks, which cause stress concentrations that magnify the effect of applied loads. Classical strengths of materials equations are useful for producing general solutions to problems, but in order to analyze specific cases in detail, Linear Elastic Fracture Mechanics (LEFM) are used instead. LEFM assumes that a crack is a free surface within the surrounding stress field, the elastic solution surrounding this crack is based on a stress intensity factor $K$, and that the stress on the crack tip can be used to predict the crack propagation. Furthermore, the area surrounding a crack consists of three major parts. The first part, consisting of the crack tip, is a region of plastic deformation at which it is not valid to use LEFM due to the plastic deformation there. The second region is the linear elastic region, where LEFM is applied in describing the stress state of the material. The third section is the far field where the stress state is no longer affected by the presence of the crack. By analyzing the second region, information on the stress intensity factor can be determined for a variety of loads.
+In practice, the failure load of a macroscopic material is lower than the predicted failure load of the individual atomic bonds of the material. This occurs because geometric features, such as cracks, cause stress concentrations which magnify the effect of applied loads. Classical strengths of materials equations are useful for producing general solutions to problems, but in order to analyze specific cases in detail, Linear Elastic Fracture Mechanics (LEFM) is used instead. LEFM assumes that a crack is a free surface within the surrounding stress field, the elastic solution surrounding this crack is based on a stress intensity factor $K$, and that the stress on the crack tip can be used to predict the crack propagation. Furthermore, the area surrounding a crack consists of three major parts. The first part, consisting of the crack tip, is a region of plastic deformation at which it is not valid to use LEFM due to the plastic deformation. The second region is the linear elastic region, where LEFM is applied in describing the stress state of the material. The third section is the far-field where the stress state is no longer affected by the presence of the crack. By analyzing the second region, information on the stress intensity factor can be determined for a variety of loads.
 \\
 \\
-In previous works, such as that of Parnast et al \cite(straingauge), strain gauges were used to capture displacement around crack tips. While strain gauges are useful in providing displacement data, they also are only valid over the region directly underneath the gauge, limiting the information provided. Optical techniques, however, can be used to provide the full-field displacement data surrounding a crack. Through analyzing the contours present in full-field data, it can be determined what mode in which the crack is loaded. Full-field data also provides many more opportunities for extracting data and processing it because so much more information is available. Digital image correlation is attractive method for measuring these displacement fields because it is applicable on most materials, does not require particularly complicated equipment, and is easy to set up and use. The usefulness of DIC for analysis of cracks has been shown in works such as Zhang et al \cite(Zhang) where DIC was successfully used to analyze mixed mode loads to calculate stress intensity factors.
+In previous works, such as that of Parnast et al, strain gauges were used to capture displacement around crack tips \cite{straingauge}. While strain gauges are useful in providing displacement data, they are only valid over the region directly underneath the gauge, limiting the information provided. Optical techniques, however, can be used to provide the full-field displacement data surrounding a crack. Through analyzing the contours present in full-field data, it can be determined what mode(s) in which the crack is loaded. Digital image correlation is an attractive method for measuring these displacement fields because it is applicable on most materials, does not require particularly complicated equipment, and is easy to set up and use. The usefulness of DIC for analysis of cracks has been shown in works such as Zhang et al where DIC was successfully used to analyze mixed mode loads to calculate stress intensity factors \cite{Zhang}.
 \\
 \\
-This paper describes the use of Digital Image Correlation (DIC) to capture displacement field data around a crack tip when it undergoes pure Mode I loading and mixed Mode I and Mode II loadings in a Single Edged Notch Bend (SENB) test. Using this information, the stress intensity factors are calculated using the Westergaard stress function solution for both Mode 1 and mixed mode loads \cite(Fracture). These calculated stress intensity factors from LEFM are then compared to the analytical solution for the given loading scenario.
+This paper describes the use of Digital Image Correlation (DIC) to capture displacement field data around a crack tip when it undergoes pure Mode I loading and mixed Mode I and Mode II loadings in a Single Edged Notch Bend (SENB) test. Using this information, the stress intensity factors are calculated using the Westergaard stress function solution for both Mode I and mixed mode loads \cite{Fracture}. These calculated stress intensity factors from LEFM are then compared to the analytical solution for the given loading scenario.
 
 \section{Methods}
 
 \subsection{Experimental Techniques} 
 
 \subsubsection{Digital Image Correlation} % Martin
-DIC is a commonly used optical technique in experimental mechanics to accurately measure full-field displacements, and rotations by capturing a sequence of images of the surface in question during testing. Using two cameras these measurements can be taken in 3D. If only 2D measurements are needed, as in this experiment, only one camera is needed for imaging the surface.
-For correlation to take place an area of interest with in the images is selected and then divided into square sections known as subsets. Each subset is made up of the same number of pixels.  The subsets are matched from the deformed images to the reference image though a correlation function with in the DIC algorithm. By corresponding each pixel to an actual unit of length deformations and rotations can then be tracked using a DIC algorithm \cite{DIC}.
+DIC is a commonly used optical technique to measure full-field displacements and rotations by capturing a sequence of images of a smooth surface during loading. Using two cameras, these measurements can be taken in 3D. If only 2D measurements are needed, as in this experiment, only one camera is required. An area of interest within the images is selected and then divided into sections known as subsets. Each subset is made up of the same number of pixels. A template matching function is used to correlate the subsets from the deformed images to a reference image within the DIC algorithm. By corresponding each pixel to an actual unit of length, deformations and rotations can then be tracked \cite{DIC}.
 \\
 \\
-For the DIC algorithm to be effective each subset must contain enough unique features.  These features are related to contrast or pixel values with in each subset. A high-contrast uniform granular surface is desired to create such usable features. In practice this is known as a speckle pattern. A usable speckle pattern consists of uniformly dispersed speckles of  random shapes and varying sizes. The size of the speckles and number of subsets influence the accuracy of measurements thus it is important to verify a proper speckle pattern is used \cite{speckle}.  
+For the DIC algorithm to be effective, each subset must contain enough unique features. These features are related to contrast or pixel values within each subset. A high-contrast uniform granular surface is desired to create such usable features. In practice this is known as a speckle pattern. An effective speckle pattern consists of uniformly dispersed speckles of unique shapes and sizes. The size of the speckles and number of subsets influence the accuracy of measurements thus, it is important to apply a proper speckle pattern \cite{speckle}.  
 
 \subsubsection{Experimental Determination of Displacement Fields} %John
 Mode I displacement fields can be obtained by symmetrically loading a SENB specimen. The geometry of the SENB specimen is given in Figure \ref{fig:Geometry}. Alignment of the roller directly above the crack tip creates pure bending around the crack, which induces a predominantly Mode I crack opening, and therefore Mode I displacement fields. Mixed mode displacement fields can be obtained by inducing eccentricity in the SENB specimen. This can be done by moving one of the lower support rollers, creating a combination of bending (Mode I) and shear (Mode II) around the crack. This configuration is given in Figure \ref{fig:Geometry_Mixed}.  
@@ -118,72 +117,64 @@ Theoretical Mode I stress intensity factors ($K_{I}$) can be calculated using th
 \begin{equation}
 K_{I} = Y\sigma\sqrt{\pi a}
 \end{equation}
-where $\sigma$ is the far-field stress, $a$ is the crack length and $Y$ is a geometric factor specific to the loading configuration and specimen geometry. Using the solution developed in \textit{The Stress Analysis of Cracks Handbook}, the stress intensity factor for the single edge notched bend specimen being examined is \cite{notch}
+where $\sigma$ is the far-field stress, $a$ is the crack length and $Y$ is a geometric factor specific to the loading configuration and specimen geometry. Using the solution developed in \textit{The Stress Analysis of Cracks Handbook}, the stress intensity factor for the single edge notched bend specimen being examined is 
 \begin{equation}
 K_{I} = \frac{P}{B\sqrt{w}}\Bigg(\frac{\frac{3S}{w}\sqrt{\frac{a}{w}}}{2(1+\frac{2a}{w})(1-\frac{a}{w})^{1.5}}\Bigg)\Bigg[1.99-\frac{a}{w}\Big(1-\frac{a}{w}\Big)\Big[2.15-3.93\Big(\frac{a}{w}\Big)+2.7\Big(\frac{a}{w}\Big)^2\Big]\Bigg]
 \end{equation}
-where $P$ is the applied load, $S$ is the support span, $w$ is the specimen width, $B$ is the specimen thickness and $a$ is the crack length. 
+where $P$ is the applied load, $S$ is the support span, $w$ is the specimen width, $B$ is the specimen thickness and $a$ is the crack length \cite{notch}. 
 \\ \\
-Experimental Mode I stress intensity factors can be found using experimental displacement fields. From the Westergaard solution, the displacements around the crack can be described by the following equations \cite{Fracture}
+Experimental Mode I stress intensity factors can be found using experimental displacement fields. From the Westergaard solution, the displacements around the crack can be described by the following equations 
 \begin{equation}
 u_{x} = \frac{K_{I}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa-1)cos\bigg(\frac{\theta}{2}\bigg)-cos\bigg(\frac{3\theta}{2}\bigg)\bigg]
 \end{equation}
 \begin{equation}
 u_{y} = \frac{K_{I}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa+1)sin\bigg(\frac{\theta}{2}\bigg)-sin\bigg(\frac{3\theta}{2}\bigg)\bigg]
 \end{equation}
-where ($r$,$\theta$) are the polar coordinates of the point, $\mu$ is the shear modulus, $\kappa$ = $\frac{3-\nu}{1+\nu}$, and $\nu$ is Poisson's ratio for the plane stress state of the experiment.
+where ($r$,$\theta$) are the polar coordinates of the point, $\mu$ is the shear modulus, $\kappa$ = $\frac{3-\nu}{1+\nu}$, and $\nu$ is Poisson's ratio for the plane stress state of the experiment \cite{Fracture}.
 \\ \\
-Mixed mode stress intensity factors can also be found using the experimental mixed mode displacement fields. The displacement field for a combined Mode I and Mode II loading situation is the sum of the displacements for each individual loading condition, as given by the following equations \cite{Fracture}
+Mixed mode stress intensity factors can also be found using the experimental mixed mode displacement fields. The displacement field for a combined Mode I and Mode II loading configuration is the sum of the displacements for each individual loading condition, as given by the following equations 
 \begin{equation}
 u_{x} = \frac{K_{I}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa-1)cos\bigg(\frac{\theta}{2}\bigg)-cos\bigg(\frac{3\theta}{2}\bigg)\bigg] + \frac{K_{II}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa+3)sin\bigg(\frac{\theta}{2}\bigg)+sin\bigg(\frac{3\theta}{2}\bigg)\bigg]
 \end{equation}
 \begin{equation}
 u_{y} = \frac{K_{I}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa+1)sin\bigg(\frac{\theta}{2}\bigg)-sin\bigg(\frac{3\theta}{2}\bigg)\bigg]-\frac{K_{II}}{8\mu \pi}\sqrt{2\pi r}\bigg[(2\kappa-3)cos\bigg(\frac{\theta}{2}\bigg)+cos\bigg(\frac{3\theta}{2}\bigg)\bigg]
-\end{equation}
-Thus, individual $K_{I}$ and $K_{II}$ values can be solved by solving the system of equations with the known displacement values at any given point.    
+\end{equation} \cite{Fracture}.
+Thus, individual $K_{I}$ and $K_{II}$ values can be solved by solving the system of equations with the known displacement values at any given point.
+    
 \subsection{Procedure} %Martin
-The experiment was conducted with a thin rectangular PMMA  specimen .  To simulate a crack the specimen was cut with a band saw in the center to a length of 25.4 mm. This  method was chosen to allow for a blunt crack tip to prevent premature failure of the specimen while testing.  One side of the plate was painted  completely white and then speckled using a black aerosol paint. The can of aerosol paint was lightly dispensed in the direction of the specimen with a small electric fan in front. Here, the fan aided in random dispersion of speckles while also maintaining a descent speckle size. A close up of the resulting speckle pattern can be seen in figure \ref{fig:DIC}. \\ \\
-
-To extract Mode I data the  specimen was placed symmetrically in a three-point bend fixture within an electronic screw-driven universal testing machine. A light load was used to hold the specimen in place while the DIC camera was adjusted.
-The DIC system developed by Correlated Solutions consisted of one camera with a 35 mm lens mounted to a tripod and two  adjustable green LED lights  with flexible attachments. The camera and lights were set and adjusted according to the manufactures recommendations \cite{DIC_Test}. The test setup with the DIC system in place is shown in figure \ref{fig:DIC}.\\
-\\
-
-Several images were taken to obtain an initial reference and to get an estimate of unwanted noise. The load was then manually incremented  while subsequently taking an image at each increment. Care was taken to record the load as close to the point in time in which  the image was captured since the specimen would relax with time. Once the threshold of 1000 N was reached  the specimen  was then unloaded.  For mixed mode loading the bottom span in the three-point fixture was adjusted to create asymmetric loading. This was achieved by simply moving one support towards the center while the other remained in place.  The resulting geometry of the asymmetric  setup can be seen in figure \ref{fig:Geometry_Mixed}. The same steps for Mode I, as mentioned above, were repeated to complete mixed mode testing. Table \ref{tab:data} shows the sequence for each load and the correlated image number for both Mode I and mixed mode testing. These images were finally analyzed for displacements using an available commercial software Vic-2D from correlated solutions. 
-
- 
-
+The experiment was conducted with a thin rectangular polymethyl methacrylate (PMMA) specimen. To simulate a crack, the specimen was cut with a band saw in the center to a length of 25.4 mm. This method was chosen to allow for a blunt crack tip to prevent premature failure of the specimen while testing. One side of the plate was painted  completely white and then speckled using a black aerosol paint. The paint was dispensed through a small electric fan to aid in the random dispersion of speckles onto the sample. A close up of the resulting speckle pattern can be seen in Figure \ref{fig:DIC}.
+\\ \\
+To extract Mode I data, the specimen was placed into a symmetric three-point bend fixture within an electronic screw-driven universal testing machine(Instron, Norwood MA). A light load was used to hold the specimen in place while the DIC camera was adjusted (Correlated Solutions, Irmo SC). The DIC system consisted of one camera with a 35 mm lens mounted to a tripod and two adjustable green LED lights with flexible attachments. The camera and lights were set and adjusted according to the manufactures recommendations \cite{DIC_Test}. The test setup with the DIC system in place is shown in Figure \ref{fig:DIC}.
+\\ \\
+Several images were taken to obtain an initial reference and estimate unwanted noise. The load was then manually incremented in steps of approximately 100 N up to 1010 N. An image was taken at each increment. The same test procedure was repeated for the mixed mode loading configuration. Images were processed using an available commercial software Vic-2D (Correlated Solutions, Irmo SC). 
 
 \subsection{Error and Uncertainties} %Martin
-%To  minimize noise and induced error best practices were fallowed.
-To interpret the  level of accuracy for the results an error reported by Vic-2D for each image analyzed was relied on. This reported error is an average measure of confidence margin for the data set \cite{Vic-2D} and is related to speckle pattern, subset size and quantity, focus, contrast, glare, and F-stop \cite{DIC_Err}. The software reported an error of 0.006 for all image results in this experiment. Typically an error in the range of 0.02 - 0.05 is  considered acceptable and since the above error is much lower the results from the DIC analysis can be considered reliable. Other sources of error could arise from the time between the pictures taken and time at which the load was recorded. The specimen tended to relax under a constant displacement resulting in a dropping load. To best avoid this type of error one individual was tasked with taking an image and verbally notifying another whom would then read the resulting load to a third individual for recording the image number and load.   
+DIC accuracy was evaluated using the built-in Vic-2D function \cite{Vic-2D}. Documentation establishes that an acceptable error metric is less than 0.05. The reported error values for all images were 0.006. The reported error is an average measure related to speckle pattern, subset size and quantity, focus, contrast, glare, and F-stop \cite{DIC_Err}.  
 
 \section{Results}%Nik
-In total, eight images were recorded and analyzed for each loading scenario. DIC was used to calculate $u_x$ and $u_y$ for each of the eight load increments. Rectangular sub-regions surrounding the crack were selected for analysis. Signal to Noise Ratio tended to decrease with increased load so analysis was focused on the 1010 N load increment. Equation 3 and Equation 4 were inverted to solve for $K_I$ and experimental displacement fields were used to create contour plots of $K_I$, shown in Figure \ref{fig:kU} and Figure \ref{fig:kV}. Inverting these equations created singularities as the denominator trended towards 0 at $\theta = \pm \pi$, so values exceeding 10 were eliminated to increase contrast. 
-
-
+In total, eight images were recorded and analyzed for each loading configuration. DIC was used to calculate $u_x$ and $u_y$ for each of the eight load increments. Rectangular sub-regions surrounding the crack were selected for analysis. Signal to Noise Ratio tended to decrease with increased load so analysis was focused on the 1010 N load increment. Equation 3 and Equation 4 were inverted to solve for $K_I$ and experimental displacement fields were used to create contour plots of $K_I$, shown in Figure \ref{fig:kU} and Figure \ref{fig:kV}. Inverting these equations created singularities as the denominator trended towards 0 at $\theta = \pm \pi$, so values exceeding 10 $MPa\sqrt{m}$ were eliminated to increase contrast. 
+\\ \\
 Experimental $K_I$ values were observed to be highly dependent on location. $K_I$ became less accurate as distance from the crack increased for values calculated from $u_x$ data. The opposite relation was observed for $u_y$ data. To analyze how well theoretical $K_I$ fit the experimental data, two points along the x-axis on the $K_I^{u_x}$ plot were chosen for further analysis. $K_I$ was then calculated for each of the eight load increments. Results are shown in Figure \ref{fig:K1}. $K_I$ at both locations closely matched predicted values with $R^2>0.98$ in both cases. 
-
-
+\\ \\
 Contour plots of raw $u_x$ and $u_y$ displacement data were drawn and shown in Figure \ref{fig:cc1} and Figure \ref{fig:cc2}. Quiver plots of combined displacement fields for Mode I dominant and mixed mode loading scenarios are shown in Figure \ref{fig:Quiver1} and Figure \ref{fig:QuiverMix}
-
-
-
+% Mixed Mode Results
 \section{Discussion}%Nik
-The general shape of both $u_x$ and $u_y$ fields in Mode I tests matched well with predictions. Field magnitudes also agreed closely, but spacing between contour lines did not always match perfectly. The roughness in experimental contours is likely due to errors inherent in DIC methods such as finite pixel/speckle size and subset selection. There are several possible explanations for disagreements in contour spacing. First, theoretical calculations depend on bulk modulus, $\mu$, which was not measured, but derived from Young's Modulus and Poisson's ratio, taken from on-line sources. Additionally, theoretical calculations assume an infinitely thin crack with a sharp tip. The test specimen crack was cut with a band saw and therefore has a finite width and a blunted tip. 
-
-Mixed mode testing produced less definitive results. Plots in  Figure \ref{fig:Quiver1} and Figure \ref{fig:QuiverMix} show roughly equivalent displacement fields for the two different loading scenarios. $u_x$ did not change sign across the crack indicating that very little, if any, mixed mode displacement is present. This likely a result of the load being placed over the crack in the "mixed" mode configuration. In theory, this setup should place zero shear across an infinitely thin crack.  
+The general shape of both $u_x$ and $u_y$ fields in Mode I tests matched well with predictions. Field magnitudes also agreed closely, but spacing between contour lines did not always match perfectly. The roughness in experimental contours is likely due to errors inherent in DIC methods such as finite pixel/speckle size and subset selection. There are several possible explanations for disagreements in contour spacing. First, theoretical calculations depend on shear modulus, $\mu$, which was not measured, but derived from Young's Modulus and Poisson's ratio, taken from on-line sources. Additionally, theoretical calculations assume an infinitely thin crack with a sharp tip. The test specimen crack was cut with a band saw and therefore has a finite width and a blunted tip. 
+% need reference for shear
+\\ \\
+Mixed mode testing produced less definitive results. Plots in Figure \ref{fig:Quiver1} and Figure \ref{fig:QuiverMix} show roughly equivalent displacement fields for the two different loading scenarios. $u_x$ did not change sign across the crack indicating that very little, if any, mixed mode displacement is present. This likely a result of the load being placed over the crack in the "mixed" mode configuration. In theory, this setup should place zero shear across an infinitely thin crack.  
 
 
 \section{Conclusion}%Nick
 
-Displacement fields were compared for an edge crack in Mode I loading using both a closed form analytical solution and experimental data. These displacement fields were similar in magnitude, although the location of various contours did not match. These displacements were used to calculate stress intensity factors across a variety of loads. When compared with each other, these stress intensity factors agreed very well across the entire dataset. When mixed mode load was applied to the specimen, the overall mode mix was still predominantly Mode I. This test showed that DIC data combined with the Westergaard stress function solution produces accurate values for stress intensity factors under Mode I loading. Further testing is needed to determine whether or not the technique is applicable for mixed mode loads because this initial test was inconclusive.
+Displacement fields were compared for an edge crack in Mode I loading using both a closed form analytical solution and experimental data. These displacement fields were similar in magnitude, although the location of various contours did not match entirely. These displacements were used to calculate Mode I stress intensity factors across a variety of loads. When compared with each other, these stress intensity factors agreed very well adjacent to the crack tip. These results demonstrate that LEFM is only valid in a select region around the crack. This region is dependent on geometry and loading configurations. When mixed mode load was applied to the specimen, the overall mode mix was still predominantly Mode I. This test showed that DIC data combined with the Westergaard stress function solution produces accurate values for stress intensity factors under Mode I loading. Further testing is needed to determine whether or not the technique is applicable for mixed mode loads because this initial test was inconclusive.
 
 \section{Figures}
 % DIC setup
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{DIC_Setup.png}
-	\caption{The specimen is mounted to the fixture with the DIC system in place, here the camera is fixed to a tripod and two adjustable lights are seen on either side. A close up of the speckle pattern surrounding the crack is also shown}
+	\caption{Experimental setup with close up of speckle pattern}
 	\label{fig:DIC}
 \end{figure}
 
@@ -207,14 +198,14 @@ Displacement fields were compared for an edge crack in Mode I loading using both
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{K_U_T_2.png}
-	\caption{Contour plot of experimental values $K_1^{u_x}$.  Values above 10 have been set to 0 for clarity}
+	\caption{Contour plot of experimental values $K_1^{u_x}$.  Values above 10 $MPa\sqrt{m}$ have been set to 0 for clarity}
 	\label{fig:kU}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{K_V_T_2.png}
-	\caption{Contour plot of experimental values $K_1^{u_y}$. Values above 10 have been set to 0 for clarity}
+	\caption{Contour plot of experimental values $K_1^{u_y}$. Values above 10 $MPa\sqrt{m}$ have been set to 0 for clarity}
 	\label{fig:kV}
 \end{figure}
 
@@ -231,14 +222,14 @@ Displacement fields were compared for an edge crack in Mode I loading using both
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{cc_x.png}
-	\caption{Comparison between theoretical and experimental U displacements}
+	\caption{Comparison between theoretical and experimental $u_{x}$ displacements}
 	\label{fig:cc1}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1\textwidth]{cc_y.png}
-	\caption{Comparison between theoretical and experimental V displacements}
+	\caption{Comparison between theoretical and experimental $u_{y}$ displacements}
 	\label{fig:cc2}
 \end{figure}
 % DIC setup
@@ -246,58 +237,58 @@ Displacement fields were compared for an edge crack in Mode I loading using both
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\textwidth,scale=1]{QuiverModeI.png}
-	\caption{Displacements vectors around crack tip for a symmetric load of 534.7 N. The vectors point in opposite directions on either side of the crack as expected. }
+	\caption{Displacements vectors around crack tip for a symmetric load of 534.7 N.}
 	\label{fig:Quiver1}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\textwidth, scale=1]{quiverMixedMode.png}
-	\caption{Displacements vectors around crack for an asymmetric load 587 N. From observation the vectors resemble a Mode I dominate loading.}
+	\caption{Displacements vectors around crack for an asymmetric load of 587 N.}
 	\label{fig:QuiverMix}
 \end{figure}
 
 \newpage
-\section{Tables}
-Recoded Experimental Data:
-\begin{table}[h]\footnotesize
-	\centering
-	\begin{tabular}{ |l|l|l|l| }
-		\hline
-		\multicolumn{2}{|c|}{\textbf{Mode I}}&\multicolumn{2}{|c|}{\textbf{Mixed Mode}}\\ \hline
-		\textbf{Load [N]} & \textbf{Image Number}&\textbf{Load [N]} & \textbf{Image Number}\\  \hline
-		0-5 & 7.784 & 0-4 & 25.58 \\ \hline
-		6& 7.784 & 5 & 27.58 \\ \hline
-		7 & 93.77 & 6 & 86 \\ \hline
-		8 & 215.6 & 7 &191.7 \\ \hline
-		9 & 295 & 8 & 324 \\ \hline
-		10 & 412 & 9 & 431 \\ \hline
-		11 & 489.6 & 10 & 486 \\ \hline
-		12 & 587 & 11 & 534.7 \\ \hline
-		13 & 745 & 12 & 629.1 \\ \hline
-		14 & 834 & 13 & 761.7 \\ \hline
-		15 & 899 & 14 & 805.3 \\ \hline
-		16 & 952 & 15 & 849.6 \\ \hline
-		17 & 1010 & 16 & 896 \\ \hline
-		-	& - & 17 & 1000 \\ \hline
-		
-		
-		
-	\end{tabular}
-	\caption{Loads and associated image number, first few images were used as reference images.}
-	\label{tab:data}
-\end{table}
-% All layups
-\
-\section{Appendix}
-
-%\subsection{Code}
+%\section{Tables}
+%Recoded Experimental Data:
+%\begin{table}[h]\footnotesize
+%	\centering
+%	\begin{tabular}{ |l|l|l|l| }
+%		\hline
+%		\multicolumn{2}{|c|}{\textbf{Mode I}}&\multicolumn{2}{|c|}{\textbf{Mixed Mode}}\\ \hline
+%		\textbf{Load [N]} & \textbf{Image Number}&\textbf{Load [N]} & \textbf{Image Number}\\  \hline
+%		0-5 & 7.784 & 0-4 & 25.58 \\ \hline
+%		6& 7.784 & 5 & 27.58 \\ \hline
+%		7 & 93.77 & 6 & 86 \\ \hline
+%		8 & 215.6 & 7 &191.7 \\ \hline
+%		9 & 295 & 8 & 324 \\ \hline
+%		10 & 412 & 9 & 431 \\ \hline
+%		11 & 489.6 & 10 & 486 \\ \hline
+%		12 & 587 & 11 & 534.7 \\ \hline
+%		13 & 745 & 12 & 629.1 \\ \hline
+%		14 & 834 & 13 & 761.7 \\ \hline
+%		15 & 899 & 14 & 805.3 \\ \hline
+%		16 & 952 & 15 & 849.6 \\ \hline
+%		17 & 1010 & 16 & 896 \\ \hline
+%		-	& - & 17 & 1000 \\ \hline
+%		
+%		
+%		
+%	\end{tabular}
+%	\caption{Loads and associated image number, first few images were used as reference images.}
+%	\label{tab:data}
+%\end{table}
+%% All layups
+%\
+%\section{Appendix}
 %
-%\begin{verbatim}
+%%\subsection{Code}
+%%
+%%\begin{verbatim}
+%%
+%%\end{verbatim}
 %
-%\end{verbatim}
-
-\newpage
+%\newpage
 \bibliographystyle{IEEEtran}
 \bibliography{Lab2Bib}
 \end{document}
