@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  27 MAR 2018 18:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  27 MAR 2018 21:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -884,10 +884,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 294.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 294.
 Package rerunfilecheck Info: File `Expirment2.out' has not changed.
 (rerunfilecheck)             Checksum: 593CFA4780C8DFD2451C7978908604D6;758.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 294.
  )
 (\end occurred inside a group at level 1)
@@ -897,7 +893,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 294.
 Here is how much of TeX's memory you used:
  12850 strings out of 492982
  196294 string characters out of 6132527
- 362676 words of memory out of 5000000
+ 363166 words of memory out of 5000000
  16052 multiletter control sequences out of 15000+600000
  17207 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -916,7 +912,7 @@ b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
 /local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Expirment2.pdf (15 pages, 7577747 bytes).
+Output written on Expirment2.pdf (15 pages, 7578108 bytes).
 PDF statistics:
  270 PDF objects out of 1000 (max. 8388607)
  221 compressed objects within 3 object streams
