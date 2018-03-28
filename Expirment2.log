@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2018.2.24)  27 MAR 2018 22:04
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.2.22)  27 MAR 2018 21:22
+>>>>>>> 9298509d371d8d3e1a24a9ba707c994daaca6f82
 entering extended mode
 **./Expirment2.tex
 (Expirment2.tex
@@ -912,14 +916,20 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 302.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 302.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 302.
 Package rerunfilecheck Info: File `Expirment2.out' has not changed.
+<<<<<<< HEAD
 (rerunfilecheck)             Checksum: 35CFE97F61A6FEA711D69DEAC8632DE7;770.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 302.
+=======
+(rerunfilecheck)             Checksum: 593CFA4780C8DFD2451C7978908604D6;758.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 294.
+>>>>>>> 9298509d371d8d3e1a24a9ba707c994daaca6f82
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 78 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  12918 strings out of 493323
  196131 string characters out of 3139069
  368078 words of memory out of 3000000
@@ -941,6 +951,30 @@ mr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb>
 ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
 Output written on Expirment2.pdf (17 pages, 7700940 bytes).
+=======
+ 12850 strings out of 492982
+ 196294 string characters out of 6132527
+ 363166 words of memory out of 5000000
+ 16052 multiletter control sequences out of 15000+600000
+ 17207 words of font info for 103 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,12n,43p,1355b,1423s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmmi12.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmmi6.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+mi8.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pf
+b></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+/usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb></
+usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr
+/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on Expirment2.pdf (15 pages, 7578108 bytes).
+>>>>>>> 9298509d371d8d3e1a24a9ba707c994daaca6f82
 PDF statistics:
  280 PDF objects out of 1000 (max. 8388607)
  57 named destinations out of 1000 (max. 500000)
