@@ -152,7 +152,7 @@ Several images were taken to obtain an initial reference and estimate unwanted n
 DIC accuracy was evaluated using the built-in Vic-2D function \cite{Vic-2D}. Documentation establishes that an acceptable error metric is less than 0.05. The reported error values for all images were 0.006. The reported error is an average measure related to speckle pattern, subset size and quantity, focus, contrast, glare, and F-stop \cite{DIC_Err}.  
 
 \section{Results}%Nik
-In total, eight images were recorded and analyzed for each loading configuration. DIC was used to calculate $u_x$ and $u_y$ for each of the eight load increments. Rectangular sub-regions surrounding the crack were selected for analysis. Signal to Noise Ratio tended to decrease with increased load so analysis was focused on the 1010 N load increment. Equation 3 and Equation 4 were inverted to solve for $K_I$ and experimental displacement fields were used to create contour plots of $K_I$, shown in Figure \ref{fig:kU} and Figure \ref{fig:kV}. Inverting these equations created singularities as the denominator trended towards 0 at $\theta = \pm \pi$, so values exceeding 10 $MPa\sqrt{m}$ were eliminated to increase contrast. 
+In total, eight images were recorded and analyzed for each loading configuration. DIC was used to calculate $u_x$ and $u_y$ for each of the eight load increments. Rectangular sub-regions surrounding the crack were selected for analysis. Signal to Noise Ratio tended to decrease with increased load so analysis was focused on the 1010 N load increment. Equation 3 and Equation 4 were inverted to solve for $K_I$ and experimental displacement fields were used to create contour plots of $K_I$, shown in Figure \ref{fig:kU} and Figure \ref{fig:kV}. Inverting these equations created singularities as the denominator trended towards 0 at $\theta = \pm \pi$, so values exceeding 2 $MPa\sqrt{m}$ were eliminated to increase contrast. 
 \\ \\
 Experimental $K_I$ values were observed to be highly dependent on location. $K_I$ became less accurate as distance from the crack increased for values calculated from $u_x$ data. The opposite relation was observed for $u_y$ data. To analyze how well theoretical $K_I$ fit the experimental data, two points along the x-axis on the $K_I^{u_x}$ plot were chosen for further analysis. $K_I$ was then calculated for each of the eight load increments. Results are shown in Figure \ref{fig:K1}. $K_I$ at both locations closely matched predicted values with $R^2>0.98$ in both cases. 
 \\ \\
@@ -197,15 +197,15 @@ Displacement fields were compared for an edge crack in Mode I loading using both
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{K_U_T_2.png}
-	\caption{Contour plot of experimental values $K_1^{u_x}$.  Values above 10 $MPa\sqrt{m}$ have been set to 0 for clarity}
+	\includegraphics[width=1\textwidth]{K_x.png}
+	\caption{Contour plot of experimental values $K_1^{u_x}$.  Values above 2 $MPa\sqrt{m}$ have been set to 0 for clarity}
 	\label{fig:kU}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1\textwidth]{K_V_T_2.png}
-	\caption{Contour plot of experimental values $K_1^{u_y}$. Values above 10 $MPa\sqrt{m}$ have been set to 0 for clarity}
+	\includegraphics[width=1\textwidth]{K_y.png}
+	\caption{Contour plot of experimental values $K_1^{u_y}$. Values above 2 $MPa\sqrt{m}$ have been set to 0 for clarity}
 	\label{fig:kV}
 \end{figure}
 
