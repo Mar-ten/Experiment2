@@ -161,14 +161,14 @@ Contour plots of raw $u_x$ and $u_y$ displacement data were drawn and shown in F
 Values of $K_I$ and $K_{II}$ were extracted from the mixed mode $u_x$ and $u_y$ displacement fields. A contour plot of the mode mix ratio surrounding the crack is shown in Figure \ref{fig:mm_comp}. 
 % Mixed Mode Results
 \section{Discussion}%Nik
-The general shape of both $u_x$ and $u_y$ fields in Mode I tests matched well with predictions. Field magnitudes also agreed closely, but spacing between contour lines did not always match perfectly. The roughness in experimental contours is likely due to errors inherent in DIC methods such as finite pixel/speckle size and subset selection. There are several possible explanations for disagreements in contour spacing. First, theoretical calculations depend on shear modulus, $\mu$, which was not measured, but derived from Young's Modulus and Poisson's ratio, taken from on-line sources. Additionally, theoretical calculations assume an infinitely thin crack with a sharp tip. The test specimen crack was cut with a band saw and therefore has a finite width and a blunted tip. 
+The general shape of both $u_x$ and $u_y$ fields in Mode I tests matched well with predictions. Field magnitudes also agreed closely, but spacing between contour lines did not always match perfectly. The roughness in experimental contours is likely due to errors inherent in DIC methods such as finite pixel/speckle size and subset selection. There are several possible explanations for disagreements in contour spacing. First, theoretical calculations depend on shear modulus, $\mu$, which was not measured, but derived from Young's Modulus and Poisson's ratio. Additionally, theoretical calculations assume an infinitely thin crack with a sharp tip. The test specimen crack was cut with a band saw and therefore has a finite width and a blunted tip. 
 % need reference for shear
 \\ \\
-Mixed mode testing produced less definitive results. Plots in Figure \ref{fig:Quiver1} and Figure \ref{fig:QuiverMix} are very similar, although the slight asymmetry in the vectors of the mixed mode plot indicate that there is at least a small degree of mode mixity. When the two values are calculated and compared, it was shown that the mode mixing was the most different at the edge of the specimen, where $K_I/K_{II}$ was approximately 5.5. Closer to the crack tip, the two stress intensity factors were about equal. The reason for the low level of mode mixity is likely a result of the load being placed over the crack in the mixed mode configuration. The shear was positive on both sides of the crack, although it was greater on the side above the crack. This difference in shear created the Mode II loading, although it was relatively low when compared to the magnitude of the Mode I load.
+Mixed mode testing produced less definitive results. Plots in Figure \ref{fig:Quiver1} and Figure \ref{fig:QuiverMix} are very similar, although the slight asymmetry in the vectors of the mixed mode plot indicate that there is a small degree of mode mixity. When the two values are calculated and compared, it was shown that the mode mixing varied the most at the edge of the specimen, where $K_I/K_{II}$ was approximately 5.5. Closer to the crack tip, the two stress intensity factors were about equal. The reason for the low level of mode mixity is likely a result of the load being placed over the crack in the mixed mode configuration. The shear was positive on both sides of the crack, although it was greater on the side above the crack. This difference in shear created the Mode II loading, although it was relatively low when compared to the magnitude of the Mode I load.
 
 \section{Conclusion}%Nick
 
-Displacement fields were compared for an edge crack in Mode I loading using both a closed form analytical solution and experimental data. These displacement fields were similar in magnitude, although the location of various contours did not match entirely. These displacements were used to calculate Mode I stress intensity factors across a variety of loads. When compared with each other, these stress intensity factors agreed very well adjacent to the crack tip. These results demonstrate that LEFM is only valid in a select region around the crack. This region is dependent on geometry and loading configurations. When mixed mode load was applied to the specimen, the overall mode mix was still predominantly Mode I, although there was enough Mode II loading present that the respective stress intensity factors were able to be computed and compared. This test showed that DIC data combined with the Westergaard stress function solution produces accurate values for stress intensity factors under various loading configurations.
+Displacement fields were compared for an edge crack in Mode I loading using both a closed form analytical solution and experimental data. These displacement fields were similar in magnitude, although the location of various contours did not match entirely. These displacements were used to calculate Mode I stress intensity factors across a variety of loads. When compared with each other, these stress intensity factors agreed very well adjacent to the crack tip. These results demonstrate that LEFM is only valid in a select region around the crack. This region is dependent on geometry and loading configurations. When a mixed mode load configuration was applied to the specimen, the overall mode mix was still predominantly Mode I, although there was enough Mode II loading present that the respective stress intensity factors were able to be computed and compared. This test showed that DIC data combined with the Westergaard stress function solution produces accurate values for stress intensity factors under various loading configurations.
 
 \section{Figures}
 % DIC setup
@@ -237,15 +237,15 @@ Displacement fields were compared for an edge crack in Mode I loading using both
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.0\textwidth,scale=1]{QuiverModeI.png}
-	\caption{Displacements vectors around crack tip for a symmetric load of 534.7 N. The color of the stream lines represents the X component of displacement, yellow represent positive displacement while violet is negative. The symmetry of the colors in the stream line on the top and bottom suggest primarily Mode I deflections.}
+	\includegraphics[width=1\textwidth,scale=1]{QuiverModeI.png}
+	\caption{Displacements vectors around crack tip for a symmetric load of 534.7 N.}
 	\label{fig:Quiver1}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=1.0\textwidth, scale=1]{quiverMixedMode.png}
-	\caption{Displacements vectors around crack for an asymmetric load of 587 N. The color of the stream lines represents the X component of displacement, yellow represent positive displacement while violet is negative. Note the color difference on the bottom compared to the top, suggesting there is mixed mode displacements}
+	\includegraphics[width=1\textwidth, scale=1]{quiverMixedMode.png}
+	\caption{Displacements vectors around crack for an asymmetric load of 587 N.}
 	\label{fig:QuiverMix}
 \end{figure}
 
